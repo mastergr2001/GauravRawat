@@ -1,0 +1,203 @@
+/*fonts*/
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Noto Sans', sans-serif;
+*/
+
+
+body {
+	text-align: center;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	/*font-size: 1em;*/
+}
+
+/*containers*/
+
+.top-container {
+	background-color: #CBF1F5;
+	position: relative;
+	padding-top: 15.625em;
+	height: 18.75em;
+}
+
+.dynamic-text{
+	font-size: 1rem;
+}
+
+.middle-container{
+	padding-top: 50px;
+}
+
+.bottom-container{
+	padding-top: 10px;
+}
+
+/*Graphic Images*/
+
+.tree-branch{
+	position: absolute;
+	margin: 0;
+	left: -10px;
+	top: 70px;
+	width: 10%;
+}
+
+.seagull{
+	position: absolute;
+	margin: 0;
+	right: 45px;
+	top: 70px;
+	width: 5%;
+}
+
+.bottom-cloud {
+	position: absolute;
+	top: 15%;
+	left: 27%;
+	width: 12%;
+}
+
+.top-cloud {
+	position: absolute;
+	right: 27%;
+	top: 8%;
+	width: 12%;
+}
+
+.profile > img{
+	width: 8em;
+	height: 8em;
+}
+
+.skill-row > img{
+	text-align: center;
+	width: 8em;
+	height: 8em;
+	/*float: left;*/
+	margin: auto 2rem auto 2rem;
+}
+
+.skill-row{
+	width: 50%;
+	text-align: left;
+	margin: 6%  auto 10% auto;
+	line-height: 2;
+}
+
+.robot{
+	padding-top: 2%;
+	width: 8em;
+	height: 8em;
+	float: right;
+}
+
+.prog{
+	padding-top: 0.1%;
+	float: left;
+}
+
+.a-programmer{
+	color: grey;
+	font-size: 1rem;
+}
+
+.skills{
+	padding-top: 4rem;
+}
+
+.connect-with-me{
+	margin: 1rem auto 3rem auto;
+}
+
+
+
+.mymail{
+	margin:0;
+	width: 2rem;
+}
+
+.mytwitter{
+	margin:auto 3rem auto 3rem;
+	width: 2rem;
+}
+
+.mygithub{
+	margin:0;
+	width: 2rem;
+}
+
+.mymail:hover{
+	opacity: 50%;
+}
+
+.mytwitter:hover {
+	opacity: 50%;
+}
+
+.mygithub:hover {
+	opacity: 50%;
+}
+
+
+.contact-me{
+	padding-top: 2rem;
+	background-color: #A6E3E9;
+}
+
+.contact-me > p{
+	margin-bottom: 0;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: #919197;
+}
+
+.contact-me > h2{
+	color: grey;
+}
+
+
+/*Hyperlink*/
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+a:visited{
+	color: grey;
+}
+
+a:hover{
+	color: white;
+}
+
+/*h-tag family*/
+
+h1 {
+	margin:  0 auto 0 auto;
+	font-family: 'Sacramento', cursive;
+	font-size: 3.5rem;
+	color: #66BFBF;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #71C9CE
+}
+
+/*namaste font*/
+
+#namaste{
+	font-family: 'Kalam', cursive;
+	font-size: 40px;
+}
+
